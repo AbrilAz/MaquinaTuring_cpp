@@ -65,7 +65,6 @@ void mensaje(){
 void mensaje2(){
 	printf("\n\n\n\tUna maquina de Turing es una 7- tupla M = (Q, E, s, b, T, F, &) donde:\n\tQ Es un conjunto finito de estados.\n\tE Es un alfabeto de entrada.\n\tT Es un alfabeto llamado alfabeto de la cinta.\n\ts Es el estado inicial.\n\tb Es el simbolo en blanco (y no esta en E ).\n\tF Es el conjunto de estados finales o de aceptacion.\n\t&: Q x T -> Q x T x { L, R} Es una funcion parcial que se llama\n\tfuncion de transicion.");
     printf("\n\n\tAsignatura: Teoria de automatas");
-  	printf("\n\n\tAlumna: Abril Azeneth Quintas Rojas");
   	printf("\n\n\tPulse ENTER para continuar [_]\b\b");
     getchar();
 }
