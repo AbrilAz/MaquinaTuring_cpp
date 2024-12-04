@@ -1,4 +1,4 @@
-#include "ayuda.h"
+#include "libreria_ayuda.h"
 
 #define A 18
 main(){
@@ -110,7 +110,7 @@ main(){
     	gotoxy(53,7);printf("CADENA ACEPTADA");
 	}
 	
-   gotoxy(17,23);printf("¿Desea ingresar otra cadena?  1)SI 0)NO: ");scanf("%d",&sino);
+   gotoxy(17,23);printf("Â¿Desea ingresar otra cadena?  1)SI 0)NO: ");scanf("%d",&sino);
 }while(sino!=0);
     
    
